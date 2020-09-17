@@ -1,0 +1,74 @@
+.nb {
+  font-size: 20px;
+}
+.ver-nav {
+  width: 25%;
+  float: left;
+  font-size: 30px;
+}
+
+.items {
+  width: 70%;
+  float: right;
+  margin-right: 50px;
+}
+
+.card {
+  font-family: 'Roboto', sans-serif;
+}
+
+.cont {
+  text-decoration: none;
+  font-weight: 650;
+  display: block;
+  color: black;
+  padding: 8px 16px 40px;
+  text-decoration: none;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  border-top: 2px solid;
+  z-index: 2;
+  font-family: 'Kufam', cursive;
+}
+
+.cont:hover {
+  background-color: orange;
+  color: white;
+  transition: 0.3s ease;
+}
+.nb:hover {
+  background-color: orange;
+  color: white;
+  transition: 0.3s ease;
+  border-radius: 1.5rem;
+}
+.ps {
+  height: 292.5px;
+  width: 218.89px;
+}
+.card:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.homepage {
+  padding-top: 20px;
+  background-image: url(img/background.jpg);
+}
+
+.card-content a {
+  color: black;
+}
+
+.add-to-cart {
+  display: inline-block;
+  padding: 2px;
+}
+
+.add-to-cart:hover {
+  background-color: orange;
+  border-radius: 1rem;
+}
+
+.add-to-cart a:hover {
+  color: white;
+}
